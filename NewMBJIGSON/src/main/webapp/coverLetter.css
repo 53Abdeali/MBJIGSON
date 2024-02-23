@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+
+.image{
+	display:flex;
+	justify-content:right;
+	align-items:right;
+}
+
+.foot-image{
+	margin-top:4%;
+	overflow-Y:hidden;
+}
+
+.sform{
+	margin-top:5%;
+}
+.specr{
+	text-align:center;
+	margin-top:15px;
+}
+.specr h3{
+	display:inline-block;
+	border-bottom:2px solid black;
+}
+.index{
+	overflow-Y:hidden;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.form input[type="text"] {
+	 width: 100%;
+	 padding: 10px;
+	 margin-bottom: 10px;
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+    
+.tac a{
+	color:black;
+	text-decoration:none;
+}
+.tac a:hover{
+	text-decoration:underline;
+	color:blue;
+}
+
+.coverLetter{
+	padding:25px 70px 25px 70px;
+	margin:0 230px 0 230px;
+}
+.name{
+	text-align:center;
+}
+.name span{
+	display:inline-block;
+	border-bottom:2px solid black;
+	font-size:18px;
+	font-weight:bold;
+}
+.To .address {
+	text-align:left;
+	font-size:15px;
+	font-weight:bold;
+}
+.To .subject{
+	font-size:15px;
+	font-weight:bold;
+	display:inline-block;
+	border-bottom:2px solid black;
+	margin-top:0;
+}
+.To{
+	font-family:sans-serif;
+	font-size:15px;	
+}
+.first{
+	font-weight:bold;
+}
+.dir{
+	margin-top:2px;
+	text-align:left;
+}
+
+.heading{
+	text-align:center;
+}
+.heading p{
+	display:inline-block;
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:2px solid black;
+	font-family:Arial,sans-serif;
+}
+
+.general ol li{
+	font-size:13px;
+}
+
+.general ol .superlist span{
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.general{
+	margin:0 200px 0 200px;
+}
+.general ol .sublist{
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	list-style-type: none;
+	
+}
+.Sol > .superlist > ol {
+  counter-reset: roman-counter; 
+}
+
+.general ol .sublist:before{
+	content: '(' counter(roman-counter, lower-roman) ') ';
+	counter-increment:roman-counter;
+}
+.signature{
+	display:block;
+	justify-content:right;
+	text-align:right;
+}
+.signature p{
+	display:inline-block;
+	border-top:2px solid black;
+	font-size:13px;
+	
+}
+

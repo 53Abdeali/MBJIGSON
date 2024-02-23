@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+.spec{
+	text-align:center;
+}
+.spec h3{
+	display:inline-block;
+	border-bottom:2px solid black;
+	margin:0;
+}
+.spec h4{
+	display:inline-block;
+	background-color:yellow;
+	color:black;
+	margin:0;
+}
+.table{
+	margin:0 auto;
+	padding-top:10px;
+	width:50%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+     padding: 8px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+}
+th {
+     background-color: blue;
+}
+.cent{
+	text-align:center;
+}
+.price{
+	text-align: center;
+	margin:0 325px 0 325px;
+}
+.price h3{
+	display:block;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+.prices{
+	text-align:center;
+}
+.prices h3{
+	display:inline-block;
+	border-bottom:2px solid black;
+	font-weight:bold;
+}
+.list{
+	margin:30px;
+	border:2px solid cyan;
+}
+.list ul{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.list ul li{
+	list-style-type:none;
+	border:2px solid cyan;
+	margin:0 20px;
+}
+.list ul li a{
+	text-decoration:none;
+	color:black;
+	margin:20px;
+	display:inline-block;
+}
+.active{
+	background-color: cyan;
+	border:2px solid darkblue;
+}

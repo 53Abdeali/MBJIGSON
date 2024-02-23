@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="coverLetter.css"></link> 
+<meta charset="ISO-8859-1">
+<title>MB JIGSON</title>
+</head>
+<body>
+	<div class="index">
+	<div class="image" ><img alt="Logo" src="images\MBJIGSONLOGO.png"></div>
+	<div class="sform">
+
+	<form method="post" action="NewFile.jsp" id = "form" class="form" onsubmit = "onSubmit(event)">
+    <label for="name">Client Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter client name" required>
+
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" placeholder="Enter company name" required>
+
+    <label for="address">Company Address:</label>
+    <input type="text" id="address" name="address" placeholder="Enter company address" required>
+
+    <label for="product">Select Products:</label>
+    <input type="text" id="product" name="product" placeholder="Enter selected products" required>
+	
+	<div class="tac">
+		<input type="checkbox" id="checkbox" name="checkbox">I have read all <a href="GeneralTC.jsp">General Terms And Condition</a>	
+	</div>
+	
+    <input type="submit" value="Submit">
+</form>
+</div>
+<div class="foot-image"><img alt="Footer" src="images\MBJIGSONADDRESS.png"></div>
+<script src="general.js"></script>
+</div>
+</body>
+</html>
